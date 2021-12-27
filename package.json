@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlexLitvein/gb_modules/issues"
   },
-  "homepage": "https://github.com/AlexLitvein/gb_modules#readme"
+  "homepage": "https://github.com/AlexLitvein/gb_modules#readme",
+  "dependencies": {
+    "howler": "^2.2.3"
+  }
 }
