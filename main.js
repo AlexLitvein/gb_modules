@@ -1,3 +1,4 @@
+import './css/main.css'
 import { printError, printResult } from './dateDiff/js/printResult.js';
 import { getDateDiff } from './common/js/getDateDiff.js';
 import { getCtrls } from './common/js/utils.js';
