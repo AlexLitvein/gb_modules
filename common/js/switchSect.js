@@ -11,7 +11,7 @@ export function initSwitchTimer(ctrls) {
     ctrls.btnTimer.addEventListener('click', (e) => {
         ctrls.datecalc.className = 'hide-form';
         ctrls.timer.className = 'show-form';
-        ScriptLoader.load('./timer/js/timer.js', () => { }); 
+        ScriptLoader.load('timer.js', () => { }); 
     });
 }
 

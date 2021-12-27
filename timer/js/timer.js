@@ -1,6 +1,7 @@
-import { DateTime } from 'https://moment.github.io/luxon/es6/luxon.min.js';
+import '../../media/zing_1.mp3';
+import { DateTime } from "luxon";
 import { getDateDiffNowString } from '../../common/js/getDateDiff.js';
-import '../../common/js/howler.js';
+import { Howl } from 'howler';
 
 const Timer = () => {
     let tm = null;
